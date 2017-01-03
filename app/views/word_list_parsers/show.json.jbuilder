@@ -1,0 +1,1 @@
+json.partial! "word_list_parsers/word_list_parser", word_list_parser: @word_list_parser

@@ -5,7 +5,7 @@ class WordListParser < ApplicationRecord
   validates_attachment_content_type :wordlist, content_type: ['text/x-c']
 
 
-  ###BEGIN FAST VERSION
+  ###BEGIN SLOW VERSION
   def check_matches(left_words, right_words, target_words)
 	result = []
 	left_words.each do |left|
